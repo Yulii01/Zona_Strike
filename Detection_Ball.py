@@ -252,7 +252,7 @@ class Detection_blob:
                 for j in pointrecta:
                     if(i[0]==j[0]):
                         ball.append((-j[1],-i[1]))
-
+            
             cap = cv2.VideoCapture(video)
 
             while True:
